@@ -12,9 +12,9 @@ end
 
 def current_player(board)
   if turn_count(board).even?
-    return "O"
-  elsif turn_count(board).odd?
     return "X"
+  elsif turn_count(board).odd?
+    return "O"
   else
     puts "Thank you for playing."
 end
