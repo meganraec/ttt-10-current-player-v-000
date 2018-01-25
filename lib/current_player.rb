@@ -1,7 +1,7 @@
 board = Array.new(9, " ")
 
 def turn_count(board)
-  counter = 1
+  counter = 0
  board.each do |position|
    if position == "X" || position == "O"
    counter += 1
