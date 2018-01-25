@@ -8,6 +8,7 @@ def turn_count(board)
  end
  return counter
 end
+end
 
 def current_player(board)
   if turn_count(board).even?
@@ -16,6 +17,7 @@ def current_player(board)
     return "X"
   else
     puts "Thank you for playing."
+end
 end
 
 turn_count(board)
